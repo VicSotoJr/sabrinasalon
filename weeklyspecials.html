@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Specials</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Special+Elite" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  <style>
+    html {
+      background-color: #def0da;
+    }
+
+    h1 {
+      font-family: 'Special Elite';
+      font-size: xx-large;
+    }
+    h1.top{
+      font-size: 40px;
+      text-decoration-line: underline;
+    }
+
+    h2 {
+      font-family: 'Special Elite';
+    }
+
+    img {
+      width: 50%;
+      display: block;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .topSection {
+      padding-top: 20px;
+    }
+
+    /* unvisited link */
+
+    a:link {
+      color: black;
+    }
+
+    /* visited link */
+
+    a:visited {
+      color: black;
+    }
+
+    /* mouse over link */
+
+    a:hover {
+      color: black;
+    }
+
+    /* selected link */
+
+    a:active {
+      color: black;
+    }
+
+    a.logo {
+      padding-top: 10px;
+    }
+  </style>
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });
+    </script>
+
+</head>
+
+<body>
+
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+
+      <a class="logo" href="index.html">
+        <h1>Underground Hair Lounge.</h1>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <span class="navbar-item">
+
+        </span>
+        <a class="navbar-item" href="index.html">
+          Home
+        </a>
+        <a class="navbar-item" href="aboutme.html">
+          About Me
+        </a>
+        <a class="navbar-item" href="gallery.html">
+          Gallery
+        </a>
+        <a class="navbar-item" href="weeklyspecials.html">
+          Weekly Specials
+        </a>
+        <a class="navbar-item" href="services.html">
+          Services
+        </a>
+
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary">
+              <strong>Book My Appointment</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+  <section class="hero topSection">
+    <div class="hero-body">
+      <h1 class="title top">
+        WEEKLY SPECIALS </h1>
+
+    </div>
+  </section>
+
+  <div class="card">
+    <div class="card-content">
+      <div class="content">
+        <h1 class="title">
+          MONDAY </h1>
+        <h1>$20</h1>
+        <h2 class="subtitle">
+          Wash & Blow Dry
+        </h2>
+      </div>
+    </div>
+  </div>
+
+  <section class="hero ">
+    <div class="hero-body">
+      <h1 class="title">
+        TUESDAY </h1>
+      <h1>15% OFF</h1>
+      <h2 class="subtitle">
+        Haircut
+      </h2>
+    </div>
+  </section>
+
+  <div class="card">
+    <div class="card-content">
+      <div class="content">
+        <h1 class="title">
+          WEDNESDAY </h1>
+        <h1>Free Lip Wax</h1>
+        <h2 class="subtitle">
+          With Purchase of Eyebrow Wax
+        </h2>
+      </div>
+    </div>
+  </div>
+
+  <section class="hero ">
+    <div class="hero-body">
+      <h1 class="title">
+        THURSDAY
+      </h1>
+      <h1>$20 OFF</h1>
+      <h2 class="subtitle">
+        Balayage
+      </h2>
+    </div>
+  </section>
+
+  <div class="card">
+    <div class="card-content">
+      <div class="content">
+        <h1 class="title">
+          FRIDAY </h1>
+        <h1>Free Band Lashes</h1>
+        <h2 class="subtitle">
+          With Purchase of Full Face Makeup
+        </h2>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="hero ">
+    <div class="hero-body">
+      <h1 class="title">
+        SATURDAY </h1>
+      <h1>$10</h1>
+      <h2 class="subtitle">
+        Kids Cut
+      </h2>
+    </div>
+  </section>
+
+  <div class="card">
+    <div class="card-content">
+      <div class="content">
+        <h1 class="title">
+          SUNDAY </h1>
+        <h1>$5 OFF</h1>
+        <h2 class="subtitle">
+          Men's Cut
+        </h2>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
